@@ -6,6 +6,7 @@ who = [0] * 9
 for n in range(9):
     who[n] = int(input())
 
+
 for i in range(1 << 9):
     cnt = 0                    # 원소의 수 초기화
     part = list()              # 부분집합
