@@ -196,6 +196,8 @@ def delete(pre):
 
 [linked_list코드](https://underflow101.tistory.com/3?category=826162)
 
+
+
 * 이중 연결 리스트
 
 : 양쪽 방향으로 순회할 수 있도록 노드를 연결한 리스트
@@ -210,7 +212,9 @@ cur이 가리키는 노드 다음에 d값을 가진 노드 삽입
 
 1. 메모리 할당하여 새로운 노드 new 생성, 데이터 필드에 d 저장
 
-![image-20220306000315907](linked_list.assets/image-20220306000315907.png)2. cur의 next를 new의 next에 저장하여 cur의 다음 노드를 삽입할 노드의 다음 노드로 연결
+![image-20220306000315907](linked_list.assets/image-20220306000315907.png)
+
+2. cur의 next를 new의 next에 저장하여 cur의 다음 노드를 삽입할 노드의 다음 노드로 연결
 
 ![image-20220304191853475](linked_list.assets/image-20220304191853475.png)
 
@@ -245,6 +249,8 @@ cur이 가리키는 노드를 삭제하는 과정
 ![image-20220304192410342](linked_list.assets/image-20220304192410342.png)
 
 [더블 linked_list 코드](https://underflow101.tistory.com/4)
+
+
 
 # 삽입정렬
 

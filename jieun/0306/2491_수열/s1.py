@@ -20,8 +20,8 @@ for i in range(1, N):
 number_r = numbers[::-1]
 ans_r = 1
 cnt_r = 1
-for i in range(1, N):
-    if number_r[i-1] <= number_r[i]:
+for j in range(1, N):
+    if number_r[j-1] <= number_r[j]:
         cnt_r +=1
     else:
         cnt_r = 1
