@@ -7,7 +7,7 @@ N, M = map(int, input().split())    # N: start, M: end
 cnt = 0                 # 횟수
 find = 0                # 찾으면 멈춰줘 !
 queue = deque([[N]])    # 시작
-visit = [0] * 100050    # 방문확인
+visit = [0] * 150000    # 방문확인
 
 while queue:
     start = queue.popleft()   # 시작노드 빼오기
@@ -19,7 +19,7 @@ while queue:
             if n == M:              # 찾으면 멈춰줘 !
                 find = 1
                 break
-            if 0 < n < 100050 and visit[n] == 0:   # 방문안했으면 방문해줘 !
+            if 0 < n < 150000 and visit[n] == 0:   # 방문안했으면 방문해줘 !
                 v.append(n)
                 visit[n] = 1
                 continue
