@@ -2,7 +2,6 @@
 # 2022-03-10
 from collections import deque
 
-
 def dfs(start_node, visited):
     global result_d
     global graph
@@ -29,7 +28,6 @@ def bfs(start_node, visited):
             if not visited[i]:        # 인접노드에 방문한 적 없을 때
                 visited[i] = True     # 방문 표시
                 queue.append(i)       # 큐에 방문기록 추가
-
 
 N, M, V = map(int, input().split())  # N: 정점의 개수, M: 간선의 개수, V: 탐색시작할 정점 노드
 graph = [[] for _ in range(N+1)]
