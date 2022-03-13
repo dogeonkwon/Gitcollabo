@@ -9,7 +9,7 @@ find = 0                # 찾으면 멈춰줘 !
 queue = deque([[N]])    # 시작
 visit = [0] * 150000    # 방문확인
 
-while queue:
+while queue and N != M:
     start = queue.popleft()   # 시작노드 빼오기
     cnt += 1                  # 횟수세기
     v = list()                # 시작노드에서 갈수있는 곳 담을 공간
