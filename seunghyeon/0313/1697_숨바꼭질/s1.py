@@ -19,7 +19,7 @@ while queue:
             if n == M:              # 찾으면 멈춰줘 !
                 find = 1
                 break
-            if 0 < n < 150000 and visit[n] == 0:   # 방문안했으면 방문해줘 !
+            if 0 <= n < 150000 and visit[n] == 0:   # 방문안했으면 방문해줘 !
                 v.append(n)
                 visit[n] = 1
                 continue
