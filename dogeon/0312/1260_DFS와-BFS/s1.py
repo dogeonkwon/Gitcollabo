@@ -2,6 +2,8 @@
 # 2022-03-12
 
 from collections import deque   # deque를 사용하기 위한 라이브러리를 가져온다.
+import sys
+sys.stdin = open('input.txt', 'r')
 
 
 def dfs(lst, start, visited):   # dfs 구현 함수
@@ -42,6 +44,7 @@ for _ in range(M):                      # 노드 출발 인덱스와 연결된 �
     lst[i].sort()
     lst[j].sort()
 
+print(lst)
 dfs(lst, V, D_visited)
 print(*D_result)
 
