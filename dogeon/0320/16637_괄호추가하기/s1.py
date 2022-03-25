@@ -57,10 +57,6 @@ def bracket(stack, q):
             bracket(stack5, q5)
 
 
-
-
-
-
 N = int(input())
 lst = deque(list(map(str, input())))
 number = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
