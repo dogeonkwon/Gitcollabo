@@ -29,6 +29,7 @@ def bfs(start_node, visited):
                 visited[i] = True     # 방문 표시
                 queue.append(i)       # 큐에 방문기록 추가
 
+
 N, M, V = map(int, input().split())  # N: 정점의 개수, M: 간선의 개수, V: 탐색시작할 정점 노드
 graph = [[] for _ in range(N+1)]
 
