@@ -12,7 +12,9 @@
 
 - 탐욕 알고리즘이 항상 최적해를 찾을 수 있는지 검증해야 한다.
 
-![image-20220328110836247](../../../My_TIL/self_study/06_Algorithm/Greedy.assets/image-20220328110836247-16484659638561.png)
+
+
+![image-20220328202059400](../../../My_TIL/self_study/06_Algorithm/Greedy.assets/image-20220328202059400.png)
 
 
 
@@ -20,7 +22,7 @@
 
 ## 탐욕 알고리즘 동작 과정
 
-![image-20220328111012132](../../../My_TIL/self_study/06_Algorithm/Greedy.assets/image-20220328111012132-16484659672202.png)
+![image-20220328202135948](../../../My_TIL/self_study/06_Algorithm/Greedy.assets/image-20220328202135948.png)
 
 
 
