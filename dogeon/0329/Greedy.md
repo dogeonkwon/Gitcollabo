@@ -6,13 +6,13 @@
 
 - ##### 최적화 문제를 해결하는 알고리즘
 
-![image-20220328110714683](greedy.assets/image-20220328110714683.png)
+![image-20220328110714683](Greedy.assets/image-20220328110714683.png)
 
 
 
 - 탐욕 알고리즘이 항상 최적해를 찾을 수 있는지 검증해야 한다.
 
-![image-20220328110836247](greedy.assets/image-20220328110836247.png)
+![image-20220328110836247](../../../My_TIL/self_study/06_Algorithm/greedy.assets/image-20220328110836247-16484659638561.png)
 
 
 
@@ -20,7 +20,7 @@
 
 ## 탐욕 알고리즘 동작 과정
 
-![image-20220328111012132](greedy.assets/image-20220328111012132.png)
+![image-20220328111012132](../../../My_TIL/self_study/06_Algorithm/greedy.assets/image-20220328111012132-16484659672202.png)
 
 
 
@@ -32,7 +32,7 @@
 
 - ### 동전 거스름돈 문제
 
-![image-20220328111136838](greedy.assets/image-20220328111136838.png)
+![image-20220328111136838](Greedy.assets/image-20220328111136838.png)
 
 
 
@@ -57,7 +57,7 @@
 
 - ##### Case 1
 
-![image-20220328111834501](greedy.assets/image-20220328111834501.png)
+![image-20220328111834501](Greedy.assets/image-20220328111834501.png)
 
 1. ##### 해 선택 단계
 
@@ -66,7 +66,7 @@
 
 
 
-![image-20220328111845631](greedy.assets/image-20220328111845631.png)
+![image-20220328111845631](Greedy.assets/image-20220328111845631.png)
 
 2. ##### 실행 가능성 검사
 
@@ -76,7 +76,7 @@
 
 
 
-![image-20220328111910946](greedy.assets/image-20220328111910946.png)
+![image-20220328111910946](Greedy.assets/image-20220328111910946.png)
 
 3. ##### 해 검사
 
@@ -93,7 +93,7 @@
 
 - ##### case 2(400원 동전 종류 추가)
 
-![image-20220328111937674](greedy.assets/image-20220328111937674.png)
+![image-20220328111937674](Greedy.assets/image-20220328111937674.png)
 
 - ##### 가장 큰 동전을 선택하는 탐욕 방법으로는 최적해를 구할 수 없다!
 
@@ -101,7 +101,7 @@
 
 
 
-![image-20220328111958239](greedy.assets/image-20220328111958239.png)
+![image-20220328111958239](Greedy.assets/image-20220328111958239.png)
 
 - ##### 완전 검색 적용
 
@@ -115,7 +115,7 @@
 
 
 
-![image-20220328112055366](greedy.assets/image-20220328112055366.png)
+![image-20220328112055366](Greedy.assets/image-20220328112055366.png)
 
 - 금액이 0원이 되면 조건에 만족하는 동전들의 집합 중 하나를 찾게 된다.
 - 원하는 집합을 찾게 되지만 동전의 개수가 많을 수록 시간복잡도가 증가하게 된다.
@@ -130,11 +130,11 @@
 
 
 
-![image-20220328152057820](greedy.assets/image-20220328152057820.png)
+![image-20220328152057820](Greedy.assets/image-20220328152057820.png)
 
 
 
-![image-20220328152157951](greedy.assets/image-20220328152157951.png)
+![image-20220328152157951](Greedy.assets/image-20220328152157951.png)
 
 
 
@@ -144,25 +144,25 @@
 
 - ##### 완전 검색 적용
 
-![image-20220328152242566](greedy.assets/image-20220328152242566.png)
+![image-20220328152242566](Greedy.assets/image-20220328152242566.png)
 
 
 
 - ##### 탐욕 기법 적용(값이 비산 물건부터 채우기)
 
-![image-20220328152412520](greedy.assets/image-20220328152412520.png)
+![image-20220328152412520](Greedy.assets/image-20220328152412520.png)
 
 
 
 - ##### 탐욕 기법 적용(무게가 가벼운 물건부터 채우기) - 물건1의 가격이 15만원으로 변경
 
-![image-20220328152505906](greedy.assets/image-20220328152505906.png)
+![image-20220328152505906](Greedy.assets/image-20220328152505906.png)
 
 
 
 - ##### 탐욕 기법 적용(무게당 값이 높은 물건부터 채우기) - 물건 1, 2, 3의 무게와 값이 변경
 
-![image-20220328152536693](greedy.assets/image-20220328152536693.png)
+![image-20220328152536693](Greedy.assets/image-20220328152536693.png)
 
 
 
@@ -174,7 +174,7 @@
 
 - ### Fractional Knapsack 문제 의 경우
 
-![image-20220328152749146](greedy.assets/image-20220328152749146.png)
+![image-20220328152749146](Greedy.assets/image-20220328152749146.png)
 
 - 무게만큼 가치를 가지게 됨
 - 무게 당 가치가 가장 큰 물건 1을 선택
@@ -197,7 +197,7 @@
 
 - ##### 대표적인 예시 문제 - 회의실 배정 문제
 
-![image-20220328154008045](greedy.assets/image-20220328154008045.png)
+![image-20220328154008045](Greedy.assets/image-20220328154008045.png)
 
 - 탐욕적 방법을 적용해 최적해를 구할 수 있다.
 
@@ -207,7 +207,7 @@
 
 - #### 탐욕 기법 적용
 
-![image-20220328154133101](greedy.assets/image-20220328154133101.png)
+![image-20220328154133101](Greedy.assets/image-20220328154133101.png)
 
 - a0과 a(n+1)를 추가해서 정렬한다.
 - a0 : 종료시간이 0인 활동
@@ -215,62 +215,62 @@
 
 
 
-![image-20220328154223143](greedy.assets/image-20220328154223143.png)
+![image-20220328154223143](Greedy.assets/image-20220328154223143.png)
 
 - ai의 종료시간으로 부터 am의 시작시간 사이에 포함되는 활동이 없기 때문에 Si,m은 공집합이 된다.
 - 이 후, Sm,j 가 남는다.
 
 
 
-![image-20220328154259899](greedy.assets/image-20220328154259899.png)
+![image-20220328154259899](Greedy.assets/image-20220328154259899.png)
 
 
 
 
 
-![image-20220328154323070](greedy.assets/image-20220328154323070.png)
+![image-20220328154323070](Greedy.assets/image-20220328154323070.png)
 
 
 
 
 
-![image-20220328154337212](greedy.assets/image-20220328154337212.png)
+![image-20220328154337212](Greedy.assets/image-20220328154337212.png)
 
 
 
 
 
-![image-20220328154403145](greedy.assets/image-20220328154403145.png)
+![image-20220328154403145](Greedy.assets/image-20220328154403145.png)
 
 
 
 
 
-![image-20220328154424574](greedy.assets/image-20220328154424574.png)
+![image-20220328154424574](Greedy.assets/image-20220328154424574.png)
 
 
 
 - #### 탐욕 기법 검증
 
-![image-20220328154515765](greedy.assets/image-20220328154515765.png)
+![image-20220328154515765](Greedy.assets/image-20220328154515765.png)
 
 
 
 
 
-![image-20220328154603959](greedy.assets/image-20220328154603959.png)
+![image-20220328154603959](Greedy.assets/image-20220328154603959.png)
 
 
 
 
 
-![image-20220328154655916](greedy.assets/image-20220328154655916.png)
+![image-20220328154655916](Greedy.assets/image-20220328154655916.png)
 
  
 
 
 
-![image-20220328154725937](greedy.assets/image-20220328154725937.png)
+![image-20220328154725937](Greedy.assets/image-20220328154725937.png)
 
 
 
@@ -284,13 +284,13 @@
 
 
 
-![image-20220328153521900](greedy.assets/image-20220328153521900.png)
+![image-20220328153521900](Greedy.assets/image-20220328153521900.png)
 
 
 
 
 
-![image-20220328153619225](greedy.assets/image-20220328153619225.png)
+![image-20220328153619225](Greedy.assets/image-20220328153619225.png)
 
 - 1~0까지 counts 리스트를 생성한 뒤 입력된 숫자의 개수를 삽입한다.
 - 숫자가 3개 연속이면 run 성립. 이 후, counts에서 -1씩 해주기
@@ -300,17 +300,6 @@
 
 
 
-![image-20220328153633808](greedy.assets/image-20220328153633808.png)
-
-
-
-
-
-
-
-
-
-
-
+![image-20220328153633808](Greedy.assets/image-20220328153633808.png)
 
 
