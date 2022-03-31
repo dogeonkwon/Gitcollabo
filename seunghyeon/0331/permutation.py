@@ -13,8 +13,9 @@ def permutation(order, k, n):
     
     # 원소들의 수만큼 check 리스트를 조사
     for i in range(n):
-        if check[i] == False:            # i가 선택되지 않으면,
+        if not check[i]:            # i가 선택되지 않으면,
             order[k] = i                 # i를 선택
             permutation(order, k+1, n)   # 다음 선택을 위해 재귀 호출
 
-permutation([0, 0, 0, 0], 0, 4)
+
+permutation([0, 0, 0, 0, 0, 0, 0, 0], 0, 8)
