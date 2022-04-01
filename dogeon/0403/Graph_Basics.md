@@ -292,7 +292,7 @@ def bfs(arr, s, visited):
 - Make_Set( ) 연산 코드
 
 ```python
-def Make-Set(x)
+def Make-Set(x):
 	p[x] = x
     rank[x] = 0
 ```
@@ -302,18 +302,18 @@ def Make-Set(x)
 - Find_Set( ) 연산 코드
 
 ```python
-def Finde-Set(x)
-	while x != p[x]
+def Find-Set(x):
+	while x != p[x]:
     	x = p[x]
    	return x
 ```
 
 
 
-- Union( ) 연산	( p[find-set(5)] = find-set(3) ) => p[4] = 2
+- Union( ) 연산	( p[find-set(5)] = find-set(3) ) => p[4] = 2 (이건 가능, 왜냐 4가 root이기 때문) but! p[5] = 2 (이건 불가능, 왜냐 5는 root가 아니기 때문)
 
 ```python
-def Union(x, y)
+def Union(x, y):
 	p[Find-Set(y)] = Find-Set(x)
 ```
 
