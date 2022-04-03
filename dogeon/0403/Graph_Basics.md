@@ -281,7 +281,7 @@ def bfs(arr, s, visited):
 
 
 
-- #### Path compression
+- #### Path compression(경로 압축)
 
   - Find-Set 을 행하는 과정에서 만나는 모든 노드들이 직접 Root를 가리키도록 부모 정보를 변경
 
