@@ -5,20 +5,20 @@
 def dfs(r, c, d):
     global cnt
 
-    if r == N-1 and c == N-1 and not arr[r][c]:
+    if r == N-1 and c == N-1:    # 도착했다면 cnt + 1
         cnt += 1
         return
 
-    if d != 3:
-        if c+1 < N:
-            if not arr[r][c+1]:
-                dfs(r, c+1, 1)
+    if d != 3:      # 오른쪽으로 가야 하기 때문에 아래쪽 방향만 아니면 된다
+        if c+1 < N:             # 벽에 붙은 것은 제외
+            if not arr[r][c+1]:     # 빈 곳이라면
+                dfs(r, c+1, 1)      # 재귀
 
-    if r+1 < N and c+1 < N:
-        if not arr[r][c+1] and not arr[r+1][c+1] and not arr[r+1][c]:
-            dfs(r+1, c+1, 2)
+    if r+1 < N and c+1 < N:     # 대각선으로 가는 것
+        if not arr[r][c+1] and not arr[r+1][c+1] and not arr[r+1][c]:   # 주변이 빈 공간이라면
+            dfs(r+1, c+1, 2)    # 재귀
 
-    if d != 1:
+    if d != 1:     # 오른쪽방향 탐색과 동일
         if r+1 < N:
             if not arr[r+1][c]:
                 dfs(r+1, c, 3)
@@ -27,7 +27,7 @@ def dfs(r, c, d):
 N = int(input())
 arr = [list(map(int, input().split())) for _ in range(N)]
 cnt = 0
-dfs(0, 1, 1)
+dfs(0, 1, 1)    # 파이프 끝 부분의 행좌표, 열좌표, 가로방향
 print(cnt)
 
 
@@ -64,4 +64,3 @@ print(cnt)
 #         else:
 #             q.append([v[0]+1, v[1], 3])
 #             rear += 1
-
