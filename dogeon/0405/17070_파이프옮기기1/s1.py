@@ -9,16 +9,19 @@ def dfs(r, c, d):
         cnt += 1
         return
 
-    if d == 1 or d == 2:
-        if c+1 < N and not arr[r][c+1]:
-            dfs(r, c+1, 1)
+    if d != 3:
+        if c+1 < N:
+            if not arr[r][c+1]:
+                dfs(r, c+1, 1)
 
-    if r+1 < N and c+1 < N and not arr[r][c+1] and not arr[r+1][c+1] and not arr[r+1][c]:
-        dfs(r+1, c+1, 2)
+    if r+1 < N and c+1 < N:
+        if not arr[r][c+1] and not arr[r+1][c+1] and not arr[r+1][c]:
+            dfs(r+1, c+1, 2)
 
-    if d == 3 or d == 2:
-        if r+1 < N and not arr[r+1][c]:
-            dfs(r+1, c, 3)
+    if d != 1:
+        if r+1 < N:
+            if not arr[r+1][c]:
+                dfs(r+1, c, 3)
 
 
 N = int(input())
