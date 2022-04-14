@@ -34,7 +34,3 @@ while front != rear:            # bfs를 활용하여 풀이
                 result = v[1]+1
                 break
 print(result)
-
-
-
-
