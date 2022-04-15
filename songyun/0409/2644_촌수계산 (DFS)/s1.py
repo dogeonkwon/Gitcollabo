@@ -61,8 +61,8 @@ elif fm[A] != fm[B]:
 
 print(ans)
 
-# DFS(A)
-# print(cnt, grand)
+DFS(A)
+print(cnt, grand)
 
 # [[], [], [1], [1], [], [4], [4], [2], [2], [2]]
 
