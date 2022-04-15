@@ -13,7 +13,7 @@ def dfs(s_tart):
 N = int(input())
 # 시작 노드부터 끝 노드까지
 start, end = map(int, input().split())
-# 연결된 간선 
+# 연결된 간선
 line = int(input())
 # 가족 트리와 방문햇는지 distance역할도 같이 해줄 visited
 graph = [[] for _ in range(N+1)]
