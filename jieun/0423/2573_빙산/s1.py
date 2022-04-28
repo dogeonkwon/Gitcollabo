@@ -7,6 +7,7 @@ sys.setrecursionlimit(10000)
 N, M = map(int, input().split())
 arr = [list(map(int, input().split())) for _ in range(N)]
 
+# 옆이 2라서 옆 에 빙산에 영향을 줄 경우 고려 x
 def ice_melt(i, j):
     global zero
     for d in range(4):
